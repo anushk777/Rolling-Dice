@@ -1,0 +1,41 @@
+/* .boxy{
+  width:300px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+} */
+
+
+.roll-dice {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 40vh;
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 3px 2px;
+}
+
+.rolldice-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.roll-dice button {
+    align-self: center;
+    width: 9rem;
+    padding: .62rem;
+    font-size: 1em;
+    border: 5px solid black;
+    border-radius: 13px;
+    color: white;
+    background-color: orchid;
+    margin-top: 0.7em;
+}
+
+.roll-dice button:hover {
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
